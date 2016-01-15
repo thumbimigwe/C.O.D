@@ -9,6 +9,12 @@ public class Demo {
 		System.out.println("Lives: "+ghost.getLives());
 		System.out.println();
 		
+		super supersoldier=new SuperSoldier(12,1499);
+		if (supersoldier.checkHitpoints()){
+			System.out.println("Super Soldier");
+			supersoldier.takeDamage(100)
+		}
+		
 		
 		
 		
