@@ -24,5 +24,10 @@ public class soldier {
 	public int getremainingHitpoint(){
 		return this.getremainingHitpoint;
 	}
-	publit int setremainingHitpoint
+	public void setremainingHitpoint(int rPoints){
+		this.remainigHitpoint=rPoints;
+	}
+	public void takeDamage(int damage){
+		this.remainigHitpoint=getHitPoints()-damage;
+	}
 }
