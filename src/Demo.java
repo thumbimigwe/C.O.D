@@ -12,14 +12,13 @@ public class Demo {
 		super supersoldier=new SuperSoldier(12,1499);
 		if (supersoldier.checkHitpoints()){
 			System.out.println("Super Soldier");
-			supersoldier.takeDamage(100)
+			supersoldier.takeDamage(100);
+			System.out.println("Hit Point: "+supersoldier.getremainingHitpoint()+"/"+supersoldier.getHitpoints());
+			System.out.println("Lives: "+supersoldier.getLives());
 		}
-		
-		
-		
-		
-	
-
+		else{
+			System.out.println("Super Soldier can't have less than 3000 Hit Points.");
+		}
 	}
 
 }
