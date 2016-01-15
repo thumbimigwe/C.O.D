@@ -4,7 +4,7 @@ public class Demo {
 		
 		soldier ghost = new soldier (8,1500);
 		
-		// TODO Auto-generated method stub
+	
 
 	}
 
